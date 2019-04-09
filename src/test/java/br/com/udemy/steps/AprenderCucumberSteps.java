@@ -1,13 +1,12 @@
-package defaultpackage;
+package br.com.udemy.steps;
 
 import cucumber.api.Transform;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
+import br.com.udemy.converters.DateConverter;
 import org.junit.Assert;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
