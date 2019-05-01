@@ -97,6 +97,6 @@ public class AlugarFilmeSteps {
 
     @E("^a pontuacao sera de (\\d+) pontos$")
     public void aPontuacaoSeraDePontos(int arg1) throws Throwable {
-
+        notaAluguel.setPontuacao(arg1);
     }
 }

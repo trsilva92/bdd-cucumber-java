@@ -4,8 +4,6 @@ import entity.Filme;
 import entity.NotaAluguel;
 import utils.DateUtils;
 
-import java.util.Date;
-
 public class AluguelService {
 
     public NotaAluguel alugar(Filme filme, String tipo) {
@@ -17,10 +15,12 @@ public class AluguelService {
         if ("extendido".equals(tipo)) {
             nota.setPreco(filme.getAluguel() * 2);
             nota.setDataEntrega(DateUtils.obterDataDiferencadias(3));
+            nota.setPontuacao(2);
         } else {
             nota.setPreco(filme.getAluguel());
+            nota.setDataEntrega(DateUtils.obterDataDiferencadias(1));
+            nota.setPontuacao(1);
         }
-        nota.setDataEntrega(DateUtils.obterDataDiferencadias(1));
         filme.setEstoque(filme.getEstoque() - 1);
         return nota;
     }

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = "pretty",
         features = "src/test/resources/features",
         glue = "br.com.udemy.steps",
-        tags = {"@AlugarFilme, @AlugarFilmeSemEstoque, @PontuacaoPorCategoria"},
+        tags = {"@PontuacaoPorCategoria"},
         monochrome = true,
         snippets = SnippetType.CAMELCASE
 )
