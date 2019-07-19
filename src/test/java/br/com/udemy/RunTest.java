@@ -1,4 +1,4 @@
-package br.com.udemy.runners;
+package br.com.udemy;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -8,12 +8,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = "pretty",
-        features = "src/test/resources/features",
+        features = "src/main/resources/features",
         glue = "br.com.udemy.steps",
-        tags = {"@PontuacaoPorCategoria"},
+        tags = {},
         monochrome = true,
         snippets = SnippetType.CAMELCASE
 )
-public class Runner {
+public class RunTest {
 
 }

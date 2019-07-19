@@ -1,4 +1,4 @@
-package entity;
+package br.com.udemy.entity;
 
 import java.util.Date;
 

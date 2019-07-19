@@ -1,4 +1,4 @@
-package entity;
+package br.com.udemy.entity;
 
 public class Filme {
 
