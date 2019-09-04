@@ -12,6 +12,7 @@
 # BlueJ files
 *.ctxt
 *target
+*Evidences
 *.idea
 
 # Mobile Tools for Java (J2ME)
@@ -43,5 +44,6 @@ hs_err_pid*
 *.rss
 *.xhtml
 *.iml
+*.gitignore
 
 # End of https://www.gitignore.io/api/web,java

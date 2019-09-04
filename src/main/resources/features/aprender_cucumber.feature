@@ -1,5 +1,6 @@
-# language: pt
-@aprender_cucumber
+#language: pt
+
+@AprenderCucumber
 Funcionalidade: Aprender Cucumber
   Como um aluno
   Eu quero aprender a utilizar Cucumber
@@ -50,14 +51,6 @@ Funcionalidade: Aprender Cucumber
     Dado que o valor da passagem é R$ 1120,23
     Dado que o nome do passageiro é "Danielle Pozzi"
     Dado que o telefone do passageiro é 99388-1818
-
-  @Ignore
-  Cenario: Deve negar todos os steps "Dado" dos cenarios anteriores
-    Dado que o ticket é CD167
-    Dado que o ticket é AG1234
-    Dado que o valor da passagem é R$ 1.1345,56
-    Dado que o nome do passageiro é "Beltrano de Souza Silva Santos de Holanda"
-    Dado que o telefone do passageiro é 9755-3556
 
 
 
